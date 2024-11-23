@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# Get the directory where this script is located
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
-
-# Launch Windsurf from its installation directory
-exec "$SCRIPT_DIR/windsurf" "$@"
